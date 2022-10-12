@@ -9,7 +9,8 @@ A: To get to other side!
 """
 print(joke)
 
-//Swift utilizza UTF-16 al posto della codifica ASCII è possibile rappresentare emoji e caratteri speciali
+//Swift utilizza UTF-16 al posto della codifica ASCII è possibile rappresentare emoji e
+//caratteri speciali
 
 
 //Operazioni con le stringe

@@ -33,14 +33,16 @@ struct Person {
 //Non possiamo effettuare tra variabili con tipi diversi però possiamo effettuare il cast
 let x = 3                   //Intero
 let y = 0.14                //Double
-let z = Double(x) + y       //Rendiamo l'intero un double solo nell'ambito dell'operazione, non modifichiamo il tipo della                                variabile iniziale
+let z = Double(x) + y       //Rendiamo l'intero un double solo nell'ambito dell'operazione, non
+                            //modifichiamo il tipo della variabile iniziale
 
 //Per l'if la condizione non deve essere contenuta tra parentesi tonde mentre le graffe sono obbligatorie
 if age <= 50 {
     print ("Sei Giovane 😇")
 }
 
-//Possiamo creare un booleano inizializzando una variabile data da un confronto e utilizzarla in un if per renderlo più leggibile
+//Possiamo creare un booleano inizializzando una variabile data da un confronto e
+//utilizzarla in un if per renderlo più leggibile
 let isYounger = age < 13
 
 if !isYounger {
@@ -49,7 +51,8 @@ if !isYounger {
     print("E' più giovane di 13 anni")
 }
 
-//Quando abbiamo una serie di casi possibili possiamo ussare lo statement switch, a differenza di c++ non dobbiamo usare il break alla fine di ogni case
+//Quando abbiamo una serie di casi possibili possiamo ussare lo statement switch,
+//a differenza di c++ non dobbiamo usare il break alla fine di ogni case
 let numberOfWheels = 2
 switch numberOfWheels {
 case 0:
