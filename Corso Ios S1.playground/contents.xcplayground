@@ -4,5 +4,6 @@
         <page name='Basi'/>
         <page name='Stringhe'/>
         <page name='Funzioni'/>
+        <page name='Struct'/>
     </pages>
 </playground>

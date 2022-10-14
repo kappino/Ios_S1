@@ -1,4 +1,5 @@
-//: [Previous](@previous)
+
+
 
 import Foundation
 
@@ -20,11 +21,23 @@ func multiply(firstNumber: Int , secondNumber: Int) -> Int {
 multiply (firstNumber: 10, secondNumber: 5)
 
 //Possiamo assegnare una label nella dichiarazione di una funzione cosi che quando effettueremo
-//La chiamata alla funzione potremmo usare la label
+//la chiamata alla funzione potremmo usare la label
 func sayHello(to person: String, and anotherPerson: String) {
     print("\(person) messaggia con \(anotherPerson)")
 }
 
 sayHello(to: "Antonio", and: "Pippo")
+  
 
-//: [Next](@next)
+//Con l'underscore _ usato come label possiamo evitare di dichiarare quale variabile vogliamo
+// assegnare nella chiamata della funzione
+
+func test(_ a: Int, _ test2:Int) {
+    var y2 = a + 5
+    print(y2)
+}
+
+//Chiamate alla Function test non usando underscore
+// test (a:1 , test2: 5)
+//Chiamata alla Function test usando underscore
+test( 1 , 5)
