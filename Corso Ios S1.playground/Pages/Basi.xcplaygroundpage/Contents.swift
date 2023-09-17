@@ -8,7 +8,7 @@ print("Ciao")
 //Per dichiarare il tipo di una variabile doppiamo mettere : subito dopo il nome
 let nome:String = "Paolo"
 //Non posso modificare una costante
-//name = "James"
+//name = "James" non funzionerà!
 
 //Su una variabile posso fare tutte le operazioni ecc
 var age = 3
@@ -30,7 +30,7 @@ struct Person {
         print(name,cognome)
     }
 }
-//Non possiamo effettuare tra variabili con tipi diversi però possiamo effettuare il cast
+//Non possiamo effettuare operazioni tra variabili con tipi diversi però possiamo effettuare il cast
 let x = 3                   //Intero
 let y = 0.14                //Double
 let z = Double(x) + y       //Rendiamo l'intero un double solo nell'ambito dell'operazione, non
